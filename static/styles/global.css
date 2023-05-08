@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+*{
+    font-family: 'Philosopher', Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: 'Germania One', Georgia, 'Times New Roman', Times, serif;
+}
