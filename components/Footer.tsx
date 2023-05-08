@@ -4,7 +4,7 @@ import IconBrandInstagram from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/b
 
 const Footer = () => {
   return (
-    <div className="relative bg-black text-yellow-600">
+    <div className="relative mt-auto min-w-full bg-black text-yellow-600">
       <img
         className="opacity-60 rounded-2xl h-60 sm:h-96 object-cover w-full z-0"
         src="/Village-masked.webp"

@@ -1,4 +1,5 @@
 import { asset, Head } from "$fresh/runtime.ts";
+import Footer from "../components/Footer.tsx";
 import Video from "../components/Video.tsx";
 import Video2 from "../components/Video2.tsx";
 import FourthPage from "../components/layout/FourthPage.tsx";
@@ -32,6 +33,7 @@ export default function Home() {
       <div className="h-full">
         <FourthPage />
       </div>
+      <Footer />
     </>
   );
 }

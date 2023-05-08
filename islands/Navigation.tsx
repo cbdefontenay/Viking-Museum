@@ -42,7 +42,7 @@ const Navigation = () => {
           >
             <div className="lg:flex-grow font-bold uppercase">
               <a
-                href="/"
+                href="/about"
                 className="block lg:inline-block px-3 py-2 text-yellow-500 hover:text-white"
               >
                 About

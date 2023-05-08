@@ -21,7 +21,7 @@ const Transition = () => {
         </h2>
 
         <img
-          className="my-0 mx-auto"
+          className="mt-4 mx-auto"
           src="/slide.svg"
           alt="Something round"
         />
