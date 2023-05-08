@@ -7,3 +7,6 @@ go to that link: [https://www.jorvikvikingcentre.co.uk/](https://www.jorvikvikin
 
 This template was made with the *Fresh* framework (the **Deno** framework) and as been created with 
 TypeScript, Tailwindcss, CSS and Preact.
+
+
+N.B: Note that this template is not yet finished and is still not really interactive. 
