@@ -1,4 +1,5 @@
 import VideoAbout from "../components/VideoAbout.tsx";
+import ButtonWithMenu from "../islands/ButtonWithMenu.tsx";
 
 const About = () => {
   return (
@@ -23,6 +24,8 @@ const About = () => {
               and is one of the most popular visitor attractions in the UK.
             </p>
           </h2>
+
+          <ButtonWithMenu />
         </div>
       </div>
     </>
