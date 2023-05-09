@@ -1,6 +1,6 @@
 const ThirdPage = () => {
   return (
-    <div className="mx-auto px-4 py-4 text-yellow-600 md:ml-72 md:mr-auto md:w-9/12 2xl:py-48 2xl:pl-80">
+    <div className="mx-auto text-yellow-600 md:mr-auto md:w-9/12">
       <div className="flex flex-col items-center md:flex-row md:items-center">
         <p className="text-3xl pt-8 md:pt-14 pr-6 md:ml-10 md:mr-auto 2xl:ml-56">
           What's on?
@@ -27,7 +27,7 @@ const ThirdPage = () => {
       </div>
 
       <img
-        className="transition-opacity rounded-lg mt-24 mb-10 z-3 border-0 block h-min max-w-full md:h-1/2 md:mt-6 2xl:ml-56"
+        className="transition-opacity rounded-lg mt-24 mb-10 z-3 border-0 block md:h-1/2 md:mt-6 2xl:ml-56"
         src="/bracelet.jpg"
         alt="a bracelet"
       />

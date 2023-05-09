@@ -25,7 +25,7 @@ export default function Home() {
         <SecondPage />
       </div>
 
-      <div className="h-full">
+      <div className="h-screen">
         <Video2 />
         <ThirdPage />
       </div>

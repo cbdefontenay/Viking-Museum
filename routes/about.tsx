@@ -1,9 +1,13 @@
+import { Head } from "$fresh/runtime.ts";
 import VideoAbout from "../components/VideoAbout.tsx";
 import ButtonWithMenu from "../islands/ButtonWithMenu.tsx";
 
 const About = () => {
   return (
     <>
+      <Head>
+        <title>About | JORVIK Viking Museum</title>
+      </Head>
       <div className="h-screen">
         <VideoAbout />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-2">
@@ -35,7 +39,7 @@ const About = () => {
             JORVIK Viking Centre
           </h2>
           <div class=" h-screen px-4 pb-8 text-justify mt-8 md:max-w-3xl">
-            <div class="mb-4 lg:text-2xl">
+            <div class="mb-4 md:text-lg 2xl:text-xl">
               <p class="mb-4">
                 At the world famous JORVIK Viking Centre you are standing on the
                 site of one of the most famous and astounding discoveries of

@@ -1,7 +1,7 @@
 const SecondPage = () => {
   return (
     <>
-      <div className="bg-gray-200 h-full pt-20 relative w-full lg:h-full lg:py-16 lg:px-40 2xl:pt-72">
+      <div className="bg-gray-200 h-full pt-20 relative w-full lg:h-full lg:py-16 lg:px-40 2xl:pt-60">
         <h2 className="text-4xl text-center md:text-6xl">
           Welcome to
         </h2>
