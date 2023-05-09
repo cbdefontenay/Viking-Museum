@@ -17,11 +17,11 @@ const Footer = () => {
 
         <div className="flex justify-center items-center w-full sm:w-1/6 mt-4 sm:mt-10">
           <input
-            className="bg-transparent border-b border-yellow-600 active:bg-transparent text-center py-2 sm:py-4 px-2 sm:px-4 w-full"
+            className="bg-transparent border-b border-yellow-600 active:bg-transparent text-center py-2 sm:py-4 px-2 sm:px-4"
             type="email"
             name="email"
             id="email"
-            placeholder="Enter your email address..."
+            placeholder="Enter your email address"
           />
 
           <img

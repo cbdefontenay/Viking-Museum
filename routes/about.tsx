@@ -1,4 +1,5 @@
 import AboutImage from "../components/About/AboutImage.tsx";
+import Footer from "../components/Footer.tsx";
 import VideoAbout from "../components/VideoAbout.tsx";
 import ButtonWithMenu from "../islands/ButtonWithMenu.tsx";
 
@@ -14,11 +15,11 @@ const About = () => {
             alt="Something"
           />
 
-          <h1 className="text-4xl sm:text-6xl text-white leading-tight mt-6">
+          <h1 className="text-4xl sm:text-6xl text-white leading-tight mt-4">
             About
           </h1>
 
-          <h2 className="text-gray-200 text-2xl sm:text-4xl mt-20">
+          <h2 className="text-gray-200 text-2xl sm:text-4xl mt-10">
             The world famous JORVIK Viking Centre is a ‘must-see’ for visitors
             to the city of York
             <p>
@@ -30,13 +31,13 @@ const About = () => {
         </div>
       </div>
 
-      <div className="bg-gray-200 h-full pt-32 relative w-full lg:h-full lg:py-12 lg:px-40 2xl:pt-28">
+      <div className="bg-gray-200 pt-32 relative w-full lg:h-full lg:py-12 lg:px-40 2xl:pt-28">
         <div class="flex flex-col md:flex-row">
           <h2 class="text-red-800 text-3xl text-center md:w-1/4 md:mt-28 lg:text-4xl md:ml-32">
             JORVIK Viking Centre
           </h2>
           <div class=" h-screen px-4 pb-8 text-justify mt-8 md:max-w-3xl">
-            <div class="mb-4 md:text-lg md:text-4xl">
+            <div class="mb-4 md:text-lg md:text-3xl">
               <p class="mb-4">
                 At the world famous JORVIK Viking Centre you are standing on the
                 site of one of the most famous and astounding discoveries of
@@ -57,6 +58,9 @@ const About = () => {
         </div>
       </div>
       <AboutImage />
+      <div className="h-full">
+        <Footer />
+      </div>
     </>
   );
 };

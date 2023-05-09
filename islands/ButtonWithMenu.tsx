@@ -38,19 +38,6 @@ const ButtonWithMenu = () => {
           >
             Support Us
           </a>
-          <a
-            href="#"
-            className="block w-full px-4 py-2 text-sm text-gray-300 hover:bg-gray-300 hover:text-red-700"
-          >
-            Touring Exhibitions
-          </a>
-
-          <a
-            href="#"
-            className="block w-full px-4 py-2 text-sm text-gray-300 hover:bg-gray-300 hover:text-red-700"
-          >
-            Environmental Sustainability
-          </a>
         </div>
       )}
     </div>

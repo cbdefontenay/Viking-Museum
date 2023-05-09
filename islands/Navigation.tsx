@@ -29,7 +29,7 @@ const Navigation = () => {
                 <img
                   src="/jorvik.svg"
                   alt="logo jorvik"
-                  className="text-slate-300"
+                  className="text-slate-300 hover:bg-yellow-800"
                 />
               </a>
             </div>
