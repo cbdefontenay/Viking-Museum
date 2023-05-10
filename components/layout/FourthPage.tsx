@@ -34,7 +34,7 @@ const FourthPage = () => {
             class="bg-yellow-700 px-4 py-2 md:bg-transparent md:border md:border-yellow-500 mt-8 md:hover:bg-yellow-700 md:px-6 md:px-10 sm:py-3 md:py-4 
             flex justify-center items-center text-white md:uppercase rounded-3xl mx-auto"
           >
-            Click here
+            <a href="/about">Click here</a>
           </button>
         </div>
       </div>
