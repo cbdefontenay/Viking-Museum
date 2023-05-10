@@ -8,3 +8,23 @@
 h1{
     font-family: 'Germania One', Georgia, 'Times New Roman', Times, serif;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #9c900a;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #855f00;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8f560c;
+  }

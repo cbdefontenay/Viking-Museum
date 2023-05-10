@@ -1,7 +1,8 @@
 
 <svg class="svg__buttonsubmit" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" fill="#c58d58" width="155px" height="60px" viewBox="0 0 155 60" style="enable-background:new 0 0 155 60;" xml:space="preserve"><path class="st0" d="M126.5,59h-98C13.4,59,1,46.6,1,31.5v-3C1,13.4,13.4,1,28.5,1h98C141.6,1,154,13.4,154,28.5v3
 C154,46.6,141.6,59,126.5,59z"></path>
-  <text x="38" y="35" fill="white">All Events</text>
-  <a href="/whats-on">
+  <a href="/whats-on"><text x="38" y="35" fill="white">
+  All Events
+  </text>
   </a>
 </svg>
