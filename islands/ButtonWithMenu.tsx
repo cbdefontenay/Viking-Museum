@@ -15,7 +15,7 @@ const ButtonWithMenu = () => {
       {isOpen && (
         <div className="absolute left-0 w-full bg-red-800 text-gray-300 text-center border border-gray-200 rounded-md shadow-lg transition-opacity ease-in-out duration-300">
           <a
-            href="#"
+            href="/about/jorvik-story"
             className="block w-full px-4 py-2 text-sm text-gray-300 hover:bg-gray-300 hover:text-red-700"
           >
             JORVIK Story

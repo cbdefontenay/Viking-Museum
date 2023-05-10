@@ -1,7 +1,6 @@
 import { AppProps } from "$fresh/server.ts";
 import { Head } from "https://deno.land/x/fresh@1.1.5/runtime.ts";
 import Navigation from "../islands/Navigation.tsx";
-import Footer from "../components/Footer.tsx";
 
 export default function App({ Component }: AppProps) {
   return (
@@ -10,6 +9,7 @@ export default function App({ Component }: AppProps) {
         <Head>
           <title>Jorvik Viking Museum</title>
           <link rel="stylesheet" href="/styles/global.css" />
+          <script src="https://auth.magic.link/sdk"></script>
           <link rel="icon" href="/favicon.png" />
         </Head>
         <Navigation />
