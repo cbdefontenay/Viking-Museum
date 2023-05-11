@@ -33,7 +33,7 @@ const About = () => {
 
       <div className="bg-gray-200 pt-32 relative w-full lg:h-full lg:py-12 lg:px-40 2xl:pt-28">
         <div class="flex flex-col md:flex-row">
-          <h2 class="text-red-800 text-3xl text-center md:w-1/4 md:mt-28 lg:text-4xl md:ml-32">
+          <h2 class="text-red-800 text-3xl text-center sm:hidden md:block md:w-1/4 md:mt-28 lg:text-4xl md:ml-32">
             JORVIK Viking Centre
           </h2>
           <div class=" h-screen px-4 pb-8 text-justify mt-8 md:max-w-3xl">

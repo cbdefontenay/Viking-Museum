@@ -23,11 +23,11 @@ const FourthPage = () => {
           alt="vikings actors"
           className="w-full h-full"
         />
-        <div className="absolute top-0 left-0 h-full ml-32 font-bold tracking-wider flex flex-col items-center justify-center px-6 sm:ml-60 md:ml-32 lg:ml-96">
-          <p className="text-center md:text-2xl lg:text-6xl">
+        <div className="absolute top-0 left-0 h-full ml-32 font-bold tracking-wider flex flex-col items-center justify-center px-6 sm:ml-60 md:ml-32 lg:ml-80">
+          <p className="text-center md:text-2xl lg:text-5xl">
             About JORVIK
           </p>
-          <p className="text-center md:text-2xl lg:text-6xl">Viking Centre</p>
+          <p className="text-center md:text-2xl lg:text-5xl">Viking Centre</p>
 
           <button
             type="button"
