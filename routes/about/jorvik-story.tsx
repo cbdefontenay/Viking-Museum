@@ -33,10 +33,14 @@ const JorvikStory = () => {
             alt="a rune"
             className="justify-center pl-14"
           />
-          <h1 className="text-xl text-center mr-8">
+          <h1 className="text-xl text-center mr-8 text-red-800">
             2017: Return of the Vikings
           </h1>
-          <img src="/cross.svg" alt="a cross" className="ml-32 my-8 pl-8" />
+          <img
+            src="/cross.svg"
+            alt="a cross"
+            className="ml-32 my-8 pl-8 animate-pulse"
+          />
           <p className="text-center mr-8 mb-8">
             JORVIK Viking Centre has been completely re-imagined, with a new
             experiences and stories to be told.
@@ -50,10 +54,14 @@ const JorvikStory = () => {
             alt="a rune"
             className="justify-center pl-14"
           />
-          <h1 className="text-xl text-center mr-8">
+          <h1 className="text-xl text-center mr-8 text-red-800">
             2001: Time Machine Travels
           </h1>
-          <img src="/cross.svg" alt="a cross" className="ml-32 my-8 pl-8" />
+          <img
+            src="/cross.svg"
+            alt="a cross"
+            className="ml-32 my-8 pl-8 animate-pulse "
+          />
           <p className="text-center mr-8 mb-8">
             A new experience was installed at the start of the new millennium
             that took our visitors, quite literally, back in time to explore
@@ -68,8 +76,14 @@ const JorvikStory = () => {
             alt="a rune"
             className="justify-center pl-14"
           />
-          <h1 className="text-xl text-center mr-8">2015: The JORVIK Flood</h1>
-          <img src="/cross.svg" alt="a cross" className="ml-32 my-8 pl-8" />
+          <h1 className="text-xl text-center mr-8 text-red-800">
+            2015: The JORVIK Flood
+          </h1>
+          <img
+            src="/cross.svg"
+            alt="a cross"
+            className="ml-32 my-8 pl-8 animate-pulse"
+          />
           <p className="text-center mr-8 mb-8">
             The severe flooding in York at Christmas 2015 caused major damage at
             JORVIK Viking Centre but also brought about the re-imagining.
@@ -83,8 +97,14 @@ const JorvikStory = () => {
             alt="a rune"
             className="justify-center pl-14"
           />
-          <h1 className="text-xl text-center mr-8">2010: New Norse</h1>
-          <img src="/cross.svg" alt="a cross" className="ml-32 my-8 pl-8" />
+          <h1 className="text-xl text-center mr-8 text-red-800">
+            2010: New Norse
+          </h1>
+          <img
+            src="/cross.svg"
+            alt="a cross"
+            className="ml-32 my-8 pl-8 animate-pulse"
+          />
           <p className="text-center mr-8 mb-8">
             JORVIK went back to its archaeological roots in this update,
             showcasing the Coppergate dig prominently in a new glass-floored
