@@ -9,7 +9,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="absolute top-0 left-0 w-full bg-transparent pt-10">
+    <nav className="absolute top-0 left-0 w-full bg-gradient-to-b from-black to-transparent pt-10">
       <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex flex-col px-2 lg:px-0">
@@ -29,7 +29,7 @@ const Navigation = () => {
                 <img
                   src="/jorvik.svg"
                   alt="logo jorvik"
-                  className="text-slate-300 hover:bg-yellow-800"
+                  className="text-slate-300 hover:bg-yellow-800 p-2 rounded-lg"
                 />
               </a>
             </div>
@@ -43,43 +43,43 @@ const Navigation = () => {
             <div className="lg:flex-grow font-bold uppercase">
               <a
                 href="/about"
-                className="block lg:inline-block px-3 py-2 text-yellow-500 hover:text-white"
+                className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white"
               >
                 About
               </a>
               <a
                 href="/"
-                className="block lg:inline-block px-3 py-2 text-yellow-500 hover:text-white"
+                className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white"
               >
                 Visit
               </a>
               <a
                 href="/"
-                className="block lg:inline-block px-3 py-2 text-yellow-500 hover:text-white"
+                className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white"
               >
                 The Vikings
               </a>
               <a
                 href="/"
-                className="block lg:inline-block px-3 py-2 text-yellow-500 hover:text-white"
+                className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white"
               >
                 Education
               </a>
               <a
                 href="/"
-                className="block lg:inline-block px-3 py-2 text-yellow-500 hover:text-white"
+                className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white"
               >
                 Shop
               </a>
               <a
                 href="/"
-                className="block lg:inline-block px-3 py-2 text-yellow-500 hover:text-white"
+                className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white"
               >
                 What's on
               </a>
               <a
                 href="/"
-                className="block lg:inline-block px-3 py-2 text-yellow-500 hover:text-white"
+                className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white"
               >
                 Get Involved
               </a>
