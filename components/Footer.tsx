@@ -3,6 +3,11 @@ import IconBrandYoutube from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/bra
 import IconBrandInstagram from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/brand-instagram.tsx";
 
 const Footer = () => {
+  // const handleEmail = (e: any) => {
+  //   e.preventDefault();
+  //   window.location.href = "/newsletters";
+  // };
+
   return (
     <div className="relative mt-auto min-w-full bg-black text-yellow-600">
       <img
@@ -14,22 +19,9 @@ const Footer = () => {
         <h5 className="text-sm sm:text-base">
           Sign up to our newsletter for news updates &amp; events!
         </h5>
-
-        <div className="flex justify-center items-center w-full sm:w-1/6 mt-4 sm:mt-10">
-          <input
-            className="bg-transparent border-b border-yellow-600 active:bg-transparent text-center py-2 sm:py-4 px-2 sm:px-4"
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Enter your email address"
-          />
-
-          <img
-            className="ml-2 sm:ml-4 h-4 sm:h-8 bg-transparent"
-            src="/rune.svg"
-            alt="rune"
-          />
-        </div>
+        <button type="submit" className="mt-8">
+          <a href="/login">Subscribe to the Newsletter</a>
+        </button>
 
         <div className="flex flex-row mt-4 sm:mt-8">
           <div className="flex items-center mr-2">
