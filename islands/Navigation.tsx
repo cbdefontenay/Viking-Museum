@@ -54,7 +54,7 @@ const Navigation = () => {
                 Visit
               </a>
               <a
-                href="/"
+                href="/the-vikings"
                 className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white"
               >
                 The Vikings
