@@ -1,4 +1,5 @@
 import ButtonClickHere from "../../components/ButtonClickHere.tsx";
+import Footer from "../../components/Footer.tsx";
 
 const JorvikStory = () => {
   return (
@@ -113,6 +114,9 @@ const JorvikStory = () => {
 
           <ButtonClickHere href="/" text="Click Here" />
         </div>
+      </div>
+      <div className="h-full">
+        <Footer />
       </div>
     </>
   );

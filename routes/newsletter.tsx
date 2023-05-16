@@ -1,19 +1,20 @@
-import { Handlers, PageProps } from "$fresh/server.ts";
-
-export const handler: Handlers<string> = {
-  async GET(_, ctx) {
-    return await ctx.render();
-  },
-};
-
-const Newsletter = ({ data }: PageProps) => {
-  console.log(data);
-
+const Newsletter = () => {
   return (
     <>
-      <div className="flex justify-center items-center h-screen bg-gray-500">
-        <h1 className="text-white">Newsletter</h1>
-        <p className="text-white">{data}</p>
+      <div className="flex flex-col justify-center text-center items-center px-10 md:px-52 h-screen bg-gray-500">
+        <h1 className="text-gray-300 text-2xl md:text-4xl">
+          Welcome to our newsletter.
+        </h1>
+        <p className="text-yellow-500 text-lg sm:text-2xl mt-10">
+          By subscribing to our newsletter, you will get our monthly articles
+          about what happened at the museum, what new archeological founds where
+          made, and you may also get a discount if you answer some questions
+          that you may recieve per e-mail at your demand.
+        </p>
+        <p className="text-yellow-500 text-md sm:text-2xl mt-10">
+          So first, thanks for subscribing to our newsletter, you will get all
+          the informations about the newsletter in an upcoming e-mail.
+        </p>
       </div>
     </>
   );
