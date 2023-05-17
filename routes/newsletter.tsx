@@ -1,3 +1,5 @@
+import ButtonClickHere from "../components/ButtonClickHere.tsx";
+
 const Newsletter = () => {
   return (
     <>
@@ -15,6 +17,8 @@ const Newsletter = () => {
           So first, thanks for subscribing to our newsletter, you will get all
           the informations about the newsletter in an upcoming e-mail.
         </p>
+
+        <ButtonClickHere href="/" text="Back Home" />
       </div>
     </>
   );
