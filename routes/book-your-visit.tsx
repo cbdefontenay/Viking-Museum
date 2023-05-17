@@ -1,3 +1,7 @@
+import Footer from "../components/Footer.tsx";
+import VideoKnight from "../components/VideoKnight.tsx";
+import ImagesLayers from "../components/book-your-visit/ImagesLayers.tsx";
+
 const BookingPage = () => {
   return (
     <>
@@ -26,13 +30,30 @@ const BookingPage = () => {
         </div>
       </div>
 
-      <div className="h-full w-full bg-gray-200 py-8 flex flex-col items-center justify-center md:py-20">
-        <div>
-          <h1 className="text-red-700 text-2xl">
+      <div className="h-full w-full bg-gray-200 pt-8 flex flex-col items-center justify-center md:pt-20">
+        <div class="flex flex-col items-center justify-center">
+          <h1 className="text-red-700 mb-8 text-xl md:text-2xl lg:text-4xl">
             Select from the options below
           </h1>
+          <p class="mx-10 text-justify lg:mx-52 lg:px-32 md:text-xl md:text-center">
+            Simply follow the links below to pre-book a selected time-slot.
+
+            Don't forget to order a guidebook and souvenir coin - pre-book now
+            and we'll have them ready when you visit.
+          </p>
         </div>
+        <ImagesLayers />
       </div>
+
+      <div className="h-screen">
+        <VideoKnight />
+      </div>
+
+      {
+        /* <div className="h-full">
+        <Footer />
+      </div> */
+      }
     </>
   );
 };
