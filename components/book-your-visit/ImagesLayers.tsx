@@ -22,7 +22,7 @@ const ImagesLayers = () => {
             type="button"
             class="text-yellow-400 mt-8 text-xl border border-yellow-800 hover:bg-yellow-800 hover:text-gray-300 rounded-3xl px-8 py-2"
           >
-            <a href="/">Click Here</a>
+            <a href="/event-tickets">Click Here</a>
           </button>
         </div>
       </div>

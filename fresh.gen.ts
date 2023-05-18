@@ -7,10 +7,11 @@ import * as $0 from "./routes/_app.tsx";
 import * as $1 from "./routes/about.tsx";
 import * as $2 from "./routes/about/jorvik-story.tsx";
 import * as $3 from "./routes/book-your-visit.tsx";
-import * as $4 from "./routes/index.tsx";
-import * as $5 from "./routes/login.tsx";
-import * as $6 from "./routes/newsletter.tsx";
-import * as $7 from "./routes/the-vikings.tsx";
+import * as $4 from "./routes/event-tickets.tsx";
+import * as $5 from "./routes/index.tsx";
+import * as $6 from "./routes/login.tsx";
+import * as $7 from "./routes/newsletter.tsx";
+import * as $8 from "./routes/the-vikings.tsx";
 import * as $$0 from "./islands/ButtonWithMenu.tsx";
 import * as $$1 from "./islands/Navigation.tsx";
 
@@ -20,10 +21,11 @@ const manifest = {
     "./routes/about.tsx": $1,
     "./routes/about/jorvik-story.tsx": $2,
     "./routes/book-your-visit.tsx": $3,
-    "./routes/index.tsx": $4,
-    "./routes/login.tsx": $5,
-    "./routes/newsletter.tsx": $6,
-    "./routes/the-vikings.tsx": $7,
+    "./routes/event-tickets.tsx": $4,
+    "./routes/index.tsx": $5,
+    "./routes/login.tsx": $6,
+    "./routes/newsletter.tsx": $7,
+    "./routes/the-vikings.tsx": $8,
   },
   islands: {
     "./islands/ButtonWithMenu.tsx": $$0,

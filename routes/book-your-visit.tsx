@@ -45,15 +45,9 @@ const BookingPage = () => {
         <ImagesLayers />
       </div>
 
-      <div className="h-screen">
-        <VideoKnight />
-      </div>
-
-      {
-        /* <div className="h-full">
+      <div className="h-full">
         <Footer />
-      </div> */
-      }
+      </div>
     </>
   );
 };
