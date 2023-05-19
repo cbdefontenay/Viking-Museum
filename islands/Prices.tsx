@@ -72,7 +72,7 @@ const Prices = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
           <div className="flex flex-col items-center">
-            <h2 className="text-xl">Adult</h2>
+            <h2 className="text-xl text-yellow-500">Adult</h2>
             <div className="flex items-center mt-2">
               <button
                 className="bg-transparent text-3xl md:text-4xl px-2 py-1 rounded-l"
@@ -92,7 +92,7 @@ const Prices = () => {
           </div>
 
           <div className="flex flex-col items-center">
-            <h2 className="text-xl">Child</h2>
+            <h2 className="text-xl text-yellow-500">Child</h2>
             <p class="text-xs md:text-sm">Aged 5-16, accompanied by an adult</p>
             <div className="flex items-center mt-2">
               <button
@@ -113,7 +113,7 @@ const Prices = () => {
           </div>
 
           <div className="flex flex-col items-center">
-            <h2 className="text-xl">JORVIK Student</h2>
+            <h2 className="text-xl text-yellow-500">JORVIK Student</h2>
             <p class="text-xs md:text-sm">With valid Student ID</p>
             <div className="flex items-center mt-2">
               <button
@@ -134,7 +134,7 @@ const Prices = () => {
           </div>
 
           <div className="flex flex-col items-center">
-            <h2 className="text-xl">JORVIK Senior</h2>
+            <h2 className="text-xl text-yellow-500">JORVIK Senior</h2>
             <p class="text-xs md:text-sm">Aged 60+</p>
             <div className="flex items-center mt-2">
               <button
