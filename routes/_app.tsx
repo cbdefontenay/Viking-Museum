@@ -9,7 +9,6 @@ export default function App({ Component }: AppProps) {
         <Head>
           <title>Jorvik Viking Museum</title>
           <link rel="stylesheet" href="/styles/global.css" />
-          <script src="https://auth.magic.link/sdk"></script>
           <link rel="icon" href="/favicon.png" />
         </Head>
         <Navigation />

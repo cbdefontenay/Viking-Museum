@@ -48,7 +48,7 @@ const Navigation = () => {
                 About
               </a>
               <a
-                href="/"
+                href="/visit"
                 className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white"
               >
                 Visit
