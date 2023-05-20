@@ -15,7 +15,7 @@ const Navigation = () => {
           <div className="flex flex-col px-2 lg:px-0">
             <button
               type="button"
-              className="lg:hidden flex items-center px-3 py-2 rounded text-gray-200"
+              className="lg:hidden focus:outline-none flex items-center px-3 py-2 rounded text-gray-200"
               onClick={toggleMenu}
             >
               <IconAlignCenter class="w-11 h-11" />

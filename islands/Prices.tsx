@@ -1,10 +1,14 @@
 import { useState } from "preact/hooks";
+import Popup from "./PopUp.tsx";
+import TotalPaymentButton from "./TotalPaymentButton.tsx";
 
 const Prices = () => {
   const [adultCount, setAdultCount] = useState(0);
   const [childCount, setChildCount] = useState(0);
   const [studentCount, setStudentCount] = useState(0);
   const [seniorCount, setSeniorCount] = useState(0);
+  const [englishHeritageCount, setEnglishHeritageCount] = useState(0);
+  const [showPopup, setShowPopup] = useState(false);
 
   const incrementAdultCount = (e: MouseEvent) => {
     e.preventDefault();
@@ -54,18 +58,44 @@ const Prices = () => {
     }
   };
 
-  const calculateTotalPrice = () => {
+  const incrementenglishHeritageCount = (e: MouseEvent) => {
+    e.preventDefault();
+    setEnglishHeritageCount(englishHeritageCount + 1);
+  };
+
+  const decrementenglishHeritageCount = (e: MouseEvent) => {
+    e.preventDefault();
+    if (englishHeritageCount > 0) {
+      setEnglishHeritageCount(englishHeritageCount - 1);
+    }
+  };
+
+  const calculateTotalPrice = (): number => {
     const adultPrice = adultCount * 15;
     const childPrice = childCount * 10.5;
     const studentPrice = studentCount * 12.5;
-    const seniorprice = seniorCount * 12.5;
+    const seniorPrice = seniorCount * 12.5;
+    const englishHeritagePrice = englishHeritageCount * 12.75;
 
-    return (adultPrice + childPrice + studentPrice + seniorprice).toFixed(2);
+    return parseFloat(
+      (adultPrice + childPrice + studentPrice + seniorPrice +
+        englishHeritagePrice).toFixed(2),
+    );
+  };
+
+  const openPopup = (e: MouseEvent) => {
+    e.preventDefault();
+    setShowPopup(true);
+  };
+
+  const closePopup = (e: MouseEvent) => {
+    e.preventDefault();
+    setShowPopup(false);
   };
 
   return (
-    <div className="h-screen pt-56 md:pt-72 bg-gray-500 overflow-x-hidden">
-      <div className="grid grid-cols justify-center items-center w-full">
+    <div className="h-screen bg-gray-500 overflow-x-hidden">
+      <div className="grid grid-cols justify-center items-center mt-52 md:mt-44 w-full">
         <h1 className="flex items-center justify-center bg-gray-800 text-gray-200 px-10 py-4 rounded-lg">
           *Tickets Options:
         </h1>
@@ -75,14 +105,14 @@ const Prices = () => {
             <h2 className="text-xl text-yellow-500">Adult</h2>
             <div className="flex items-center mt-2">
               <button
-                className="bg-transparent text-3xl md:text-4xl px-2 py-1 rounded-l"
+                className="bg-transparent focus:outline-none text-3xl md:text-4xl px-2 py-1 rounded-l"
                 onClick={decrementAdultCount}
               >
                 -
               </button>
-              <span className="px-2">{adultCount}</span>
+              <span className="px-2 text-gray-200">{adultCount}</span>
               <button
-                className="bg-transparent text-3xl md:text-4xl px-2 py-1 rounded-r"
+                className="bg-transparent focus:outline-none text-3xl md:text-4xl px-2 py-1 rounded-r"
                 onClick={incrementAdultCount}
               >
                 +
@@ -96,14 +126,14 @@ const Prices = () => {
             <p class="text-xs md:text-sm">Aged 5-16, accompanied by an adult</p>
             <div className="flex items-center mt-2">
               <button
-                className="bg-transparent text-3xl md:text-4xl px-2 py-1 rounded-l"
+                className="bg-transparent focus:outline-none text-3xl md:text-4xl px-2 py-1 rounded-l"
                 onClick={decrementChildCount}
               >
                 -
               </button>
-              <span className="px-2">{childCount}</span>
+              <span className="px-2 text-gray-200">{childCount}</span>
               <button
-                className="bg-transparent text-3xl md:text-4xl px-2 py-1 rounded-r"
+                className="bg-transparent focus:outline-none text-3xl md:text-4xl px-2 py-1 rounded-r"
                 onClick={incrementChildCount}
               >
                 +
@@ -117,14 +147,14 @@ const Prices = () => {
             <p class="text-xs md:text-sm">With valid Student ID</p>
             <div className="flex items-center mt-2">
               <button
-                className="bg-transparent text-3xl md:text-4xl px-2 py-1 rounded-l"
+                className="bg-transparent focus:outline-none text-3xl md:text-4xl px-2 py-1 rounded-l"
                 onClick={decrementstudentCount}
               >
                 -
               </button>
-              <span className="px-2">{studentCount}</span>
+              <span className="px-2 text-gray-200">{studentCount}</span>
               <button
-                className="bg-transparent text-3xl md:text-4xl px-2 py-1 rounded-r"
+                className="bg-transparent focus:outline-none text-3xl md:text-4xl px-2 py-1 rounded-r"
                 onClick={incrementstudentCount}
               >
                 +
@@ -138,14 +168,14 @@ const Prices = () => {
             <p class="text-xs md:text-sm">Aged 60+</p>
             <div className="flex items-center mt-2">
               <button
-                className="bg-transparent text-3xl md:text-4xl px-2 py-1 rounded-l"
+                className="bg-transparent focus:outline-none text-3xl md:text-4xl px-2 py-1 rounded-l"
                 onClick={decrementseniorCount}
               >
                 -
               </button>
-              <span className="px-2">{seniorCount}</span>
+              <span className="px-2 text-gray-200">{seniorCount}</span>
               <button
-                className="bg-transparent text-3xl md:text-4xl px-2 py-1 rounded-r"
+                className="bg-transparent focus:outline-none text-3xl md:text-4xl px-2 py-1 rounded-r"
                 onClick={incrementseniorCount}
               >
                 +
@@ -153,19 +183,58 @@ const Prices = () => {
             </div>
             <p>Price: £12.50</p>
           </div>
+
+          <div className="flex flex-col items-center">
+            <h2 className="text-lg text-yellow-500">
+              JORVIK Adult 2023 -
+            </h2>
+            <h2 className="text-lg text-yellow-500">
+              English Heritage
+            </h2>
+            <p class="text-xs text-center mx-20 italic ">
+              English Heritage Membership Card must be shown on arrival, or you
+              will be asked to pay the full price of entry.
+            </p>
+            <div className="flex items-center mt-2">
+              <button
+                className="bg-transparent focus:outline-none text-3xl md:text-4xl px-2 py-1 rounded-l"
+                onClick={decrementenglishHeritageCount}
+              >
+                -
+              </button>
+              <span className="px-2 text-gray-200">{englishHeritageCount}</span>
+              <button
+                className="bg-transparent focus:outline-none text-3xl md:text-4xl px-2 py-1 rounded-r"
+                onClick={incrementenglishHeritageCount}
+              >
+                +
+              </button>
+            </div>
+            <p>Price: £12.75</p>
+          </div>
         </div>
 
-        <div className="mt-4">
-          <button className="bg-yellow-600 text-black mt-8 ml-10 px-4 py-2 rounded-lg">
-            Calculate Total: £{calculateTotalPrice()}
-          </button>
+        <div className="mt-4 flex justify-center">
+          <TotalPaymentButton TotalPrice={calculateTotalPrice()} />
 
           <button
             type="button"
-            class="ml-4 md:ml-12 border text-white border-yellow-600 px-4 py-2 rounded-xl md:hover:bg-yellow-600 md:hover:text-black"
+            className="ml-10 pt-10 text-white md:hover:text-yellow-500 focus:outline-none"
+            onClick={openPopup}
           >
             Pay now
           </button>
+
+          {showPopup && (
+            <>
+              <Popup
+                title="Pay Here"
+                text="Thank you for your trust"
+                onClose={closePopup}
+                TotalPrice={calculateTotalPrice()}
+              />
+            </>
+          )}
         </div>
         <p class="my-10 px-4 text-center">
           *Note that if you quit the page, your datas will be automaticly
