@@ -7,6 +7,9 @@ const PaymentForm: FunctionComponent<Payment> = ({ TotalPrice }) => {
   const [cardName, setCardName] = useState("");
   const [expiryDate, setExpiryDate] = useState("");
   const [cvv, setCvv] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [paymentSuccess, setPaymentSuccess] = useState(false);
+  const [error, setError] = useState("");
 
   const handleInputChange = (e: Event) => {
     const { name, value } = e.target as HTMLInputElement;
@@ -26,12 +29,23 @@ const PaymentForm: FunctionComponent<Payment> = ({ TotalPrice }) => {
       default:
         break;
     }
+    setError("");
   };
 
   const handlePayment = (e: MouseEvent) => {
     e.preventDefault();
-    // You can perform the payment processing logic here
-    console.log("Card details:", { cardNumber, cardName, expiryDate, cvv });
+
+    if (cardNumber && cardName && expiryDate && cvv) {
+      setIsLoading(true);
+
+      // Simulating a payment request with a delay
+      setTimeout(() => {
+        setIsLoading(false);
+        setPaymentSuccess(true);
+      }, 2000);
+    } else {
+      setError("You have to enter your card credentials");
+    }
   };
 
   return (
@@ -97,17 +111,38 @@ const PaymentForm: FunctionComponent<Payment> = ({ TotalPrice }) => {
           onChange={handleInputChange}
         />
       </div>
+
       <div class="flex justify-center">
         <button
           class="mt-10 font-bold focus:outline-none focus:shadow-outline md:hover:text-blue-600"
           type="submit"
           onClick={handlePayment}
+          disabled={isLoading}
         >
-          Pay Now
+          {isLoading ? "Processing..." : "Pay Now"}
         </button>
 
         <TotalPaymentButton TotalPrice={TotalPrice} />
       </div>
+      {error !== "" && <p class="text-red-500 mt-2">{error}</p>}
+
+      {paymentSuccess && (
+        <>
+          <p class="text-blue-600 mt-2">The payment was successful!</p>
+          <button
+            type="button"
+            class="border border-yellow-600 mt-2 bg-transparent md:hover:bg-yellow-600
+            rounded-xl py-2 px-4"
+          >
+            <a
+              href="/"
+              class="text-yellow-500 mt-2 focus:outline-none md:hover:text-black"
+            >
+              Back Home
+            </a>
+          </button>
+        </>
+      )}
     </form>
   );
 };

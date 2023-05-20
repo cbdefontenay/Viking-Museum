@@ -11,13 +11,15 @@ import * as $4 from "./routes/event-tickets.tsx";
 import * as $5 from "./routes/index.tsx";
 import * as $6 from "./routes/login.tsx";
 import * as $7 from "./routes/newsletter.tsx";
-import * as $8 from "./routes/the-vikings.tsx";
+import * as $8 from "./routes/pastport-tickets.tsx";
+import * as $9 from "./routes/the-vikings.tsx";
 import * as $$0 from "./islands/ButtonWithMenu.tsx";
 import * as $$1 from "./islands/Navigation.tsx";
 import * as $$2 from "./islands/PaymentForm.tsx";
-import * as $$3 from "./islands/PopUp.tsx";
-import * as $$4 from "./islands/Prices.tsx";
-import * as $$5 from "./islands/TotalPaymentButton.tsx";
+import * as $$3 from "./islands/PaymentPastport.tsx";
+import * as $$4 from "./islands/PopUp.tsx";
+import * as $$5 from "./islands/Prices.tsx";
+import * as $$6 from "./islands/TotalPaymentButton.tsx";
 
 const manifest = {
   routes: {
@@ -29,15 +31,17 @@ const manifest = {
     "./routes/index.tsx": $5,
     "./routes/login.tsx": $6,
     "./routes/newsletter.tsx": $7,
-    "./routes/the-vikings.tsx": $8,
+    "./routes/pastport-tickets.tsx": $8,
+    "./routes/the-vikings.tsx": $9,
   },
   islands: {
     "./islands/ButtonWithMenu.tsx": $$0,
     "./islands/Navigation.tsx": $$1,
     "./islands/PaymentForm.tsx": $$2,
-    "./islands/PopUp.tsx": $$3,
-    "./islands/Prices.tsx": $$4,
-    "./islands/TotalPaymentButton.tsx": $$5,
+    "./islands/PaymentPastport.tsx": $$3,
+    "./islands/PopUp.tsx": $$4,
+    "./islands/Prices.tsx": $$5,
+    "./islands/TotalPaymentButton.tsx": $$6,
   },
   baseUrl: import.meta.url,
   config,
