@@ -1,3 +1,4 @@
+import Footer from "../components/Footer.tsx";
 import VisitVideo from "../components/VisitVideo.tsx";
 
 const Visit = () => {
@@ -44,6 +45,81 @@ const Visit = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="bg-gray-200 w-full flex justify-center pt-10 md:pt-14">
+        <img src="/jorvik-winner-visit.webp" alt="jorvik winner 2022" />
+      </div>
+
+      <div class="bg-gray-200 w-full pt-32 pb-14 md:pt-56 md:pb-20">
+        <h1 class="flex justify-center text-3xl md:text-6xl">Opening Times</h1>
+        <p class="flex text-justify md:justify-center mt-20 mx-4">
+          Our planned opening hours for 2023 are as follows (the time shown is
+          last admission, closing time is 1 hour later):
+        </p>
+
+        <div className="flex justify-center">
+          <ul className="w-full max-w-md mt-20 mx-4">
+            <li className="py-1 mt-4 sm:py-2">
+              <span class="font-bold mr-2 text-xl">
+                24th April – 26th May 2023:
+              </span>
+              10am – 5pm
+            </li>
+            <li className="py-1 mt-4 sm:py-2">
+              <span class="font-bold mr-2 text-xl">
+                27th May – 4th June 2023:
+              </span>
+              9am – 5pm
+            </li>
+            <li className="py-1 mt-4 sm:py-2">
+              <span class="font-bold mr-2 text-xl">
+                5th June – 21st July 2023:
+              </span>
+              10am – 5pm
+            </li>
+            <li className="py-1 mt-4 sm:py-2">
+              <span class="font-bold mr-2 text-xl">
+                22nd July – 3rd September 2023:
+              </span>
+              9am – 5pm
+            </li>
+            <li className="py-1 mt-4 sm:py-2">
+              <span class="font-bold mr-2 text-xl">
+                4th September – 27th October 2023:
+              </span>
+              10am – 5pm
+            </li>
+            <li className="py-1 mt-4 sm:py-2">
+              <span class="font-bold mr-2 text-xl">
+                28th October – 5th November 2023:
+              </span>
+              9am – 5pm
+            </li>
+            <li className="py-1 mt-4 sm:py-2">
+              <span class="font-bold mr-2 text-xl">
+                6th November – 23rd December 2023:
+              </span>
+              10am - 4pm
+            </li>
+            <li className="py-1 mt-4 sm:py-2">
+              <span class="font-bold mr-2 text-xl">
+                27th December – 7th January 2024:
+              </span>
+              9am - 5pm
+            </li>
+            <li className="py-1 mt-4 sm:py-2">
+              <span class="font-bold mr-2 text-xl">
+                8th January – 9th February 2024:
+              </span>
+              10am – 4pm
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <Footer />
       </div>
     </>
   );
