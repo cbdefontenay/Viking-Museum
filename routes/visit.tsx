@@ -1,5 +1,6 @@
 import Footer from "../components/Footer.tsx";
 import VisitVideo from "../components/VisitVideo.tsx";
+import PricesTable from "../components/prices-table/PricesTable.tsx";
 
 const Visit = () => {
   return (
@@ -53,13 +54,13 @@ const Visit = () => {
 
       <div class="bg-gray-200 w-full pt-32 pb-14 md:pt-56 md:pb-20">
         <h1 class="flex justify-center text-3xl md:text-6xl">Opening Times</h1>
-        <p class="flex text-justify md:justify-center mt-20 mx-4">
+        <p class="flex text-justify text-lg md:justify-center md:text-2xl mt-20 mx-4 md:mx-44">
           Our planned opening hours for 2023 are as follows (the time shown is
           last admission, closing time is 1 hour later):
         </p>
 
         <div className="flex justify-center">
-          <ul className="w-full max-w-md mt-20 mx-4">
+          <ul className="w-full max-w-md md:max-w-xl md:ml-20 mt-20 mx-4">
             <li className="py-1 mt-4 sm:py-2">
               <span class="font-bold mr-2 text-xl">
                 24th April – 26th May 2023:
@@ -114,7 +115,75 @@ const Visit = () => {
               </span>
               10am – 4pm
             </li>
+            <li className="py-1 mt-4 sm:py-2">
+              <span class="font-bold mr-2 text-xl">
+                10th February – 18th February 2024:
+              </span>
+              9am – 5pm
+            </li>
+            <li className="py-1 mt-4 sm:py-2">
+              <span class="font-bold mr-2 text-xl">
+                19th February – 22nd March 2024:
+              </span>
+              10am – 4pm
+            </li>
+            <li className="py-1 mt-4 sm:py-2">
+              <span class="font-bold mr-2 text-xl">
+                23rd March – 14th April 2024:
+              </span>
+              9am – 5pm
+            </li>
+            <li className="py-1 mt-4 sm:py-2">
+              <span class="font-bold text-xl">
+                If you are booked into the last time slot, please arrive on
+                time.
+              </span>
+            </li>
+            <li className="py-1 mt-4 sm:py-2">
+              <span class="font-bold text-xl">
+                You can expect your visit to JORVIK to last around one hour.
+              </span>
+            </li>
           </ul>
+        </div>
+      </div>
+
+      <div class="bg-gray-200 w-full">
+        <p class="mx-4 md:mx-72 pb-8 md:pb-20 text-justify md:text-xl">
+          We ask that you arrive on time for your visit. The time you have
+          booked is the time we will start admitting visitors for that slot. In
+          busy times, it may take up to 20 minutes to admit everyone who has
+          booked that slot. Due to our controls on visitor capacity, we are not
+          able to admit visitors who are late, but we may be able to move your
+          visit to another time if there are spaces available.
+        </p>
+      </div>
+
+      <div class="bg-gray-200 w-full">
+        <PricesTable />
+      </div>
+
+      <div class="bg-gray-200 w-full flex justify-center items-center flex-col">
+        <div class="w-7/12 mt-16 mb-24 text-center">
+          <p class=" mb-4 md:text-xl">
+            *Please be aware that children aged 16 or under must be accompanied
+            by an adult.
+          </p>
+          <p class="mb-4 md:text-xl">
+            **Maximum of 2 adults per family ticket.
+          </p>
+
+          <p class="mb-8 md:text-xl">
+            ***Please be aware that Tesco Clubcard Partner codes cannot be used
+            for the purchase of joint museum tickets including the Pastport.
+            Booking using the Clubcard Partner codes can be booked online using
+            the ‘Tesco Clubcard Reward Partner’ ticket on our website or via
+            phone on 01904 896473.
+          </p>
+
+          <p class="md:text-xl">
+            <em>Prices valid as of 02/01/2023</em>
+          </p>
         </div>
       </div>
 
