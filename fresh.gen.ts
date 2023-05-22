@@ -14,6 +14,8 @@ import * as $7 from "./routes/newsletter.tsx";
 import * as $8 from "./routes/pastport-tickets.tsx";
 import * as $9 from "./routes/the-vikings.tsx";
 import * as $10 from "./routes/visit.tsx";
+import * as $11 from "./routes/whats-on.tsx";
+import * as $12 from "./routes/whats-on/silverdale-hoard-exhibition.tsx";
 import * as $$0 from "./islands/ButtonWithMenu.tsx";
 import * as $$1 from "./islands/Navigation.tsx";
 import * as $$2 from "./islands/PaymentForm.tsx";
@@ -35,6 +37,8 @@ const manifest = {
     "./routes/pastport-tickets.tsx": $8,
     "./routes/the-vikings.tsx": $9,
     "./routes/visit.tsx": $10,
+    "./routes/whats-on.tsx": $11,
+    "./routes/whats-on/silverdale-hoard-exhibition.tsx": $12,
   },
   islands: {
     "./islands/ButtonWithMenu.tsx": $$0,

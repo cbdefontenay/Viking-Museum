@@ -72,7 +72,7 @@ const Navigation = () => {
                 Shop
               </a>
               <a
-                href="/"
+                href="/whats-on"
                 className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white"
               >
                 What's on

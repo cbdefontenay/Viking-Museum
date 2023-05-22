@@ -10,60 +10,60 @@ const Prices = () => {
   const [englishHeritageCount, setEnglishHeritageCount] = useState(0);
   const [showPopup, setShowPopup] = useState(false);
 
-  const incrementAdultCount = (e: MouseEvent) => {
+  const incrementAdultCount = (e: Event) => {
     e.preventDefault();
     setAdultCount(adultCount + 1);
   };
 
-  const decrementAdultCount = (e: MouseEvent) => {
+  const decrementAdultCount = (e: Event) => {
     e.preventDefault();
     if (adultCount > 0) {
       setAdultCount(adultCount - 1);
     }
   };
 
-  const incrementChildCount = (e: MouseEvent) => {
+  const incrementChildCount = (e: Event) => {
     e.preventDefault();
     setChildCount(childCount + 1);
   };
 
-  const decrementChildCount = (e: MouseEvent) => {
+  const decrementChildCount = (e: Event) => {
     e.preventDefault();
     if (childCount > 0) {
       setChildCount(childCount - 1);
     }
   };
 
-  const incrementstudentCount = (e: MouseEvent) => {
+  const incrementstudentCount = (e: Event) => {
     e.preventDefault();
     setStudentCount(studentCount + 1);
   };
 
-  const decrementstudentCount = (e: MouseEvent) => {
+  const decrementstudentCount = (e: Event) => {
     e.preventDefault();
     if (studentCount > 0) {
       setStudentCount(studentCount - 1);
     }
   };
 
-  const incrementseniorCount = (e: MouseEvent) => {
+  const incrementseniorCount = (e: Event) => {
     e.preventDefault();
     setSeniorCount(seniorCount + 1);
   };
 
-  const decrementseniorCount = (e: MouseEvent) => {
+  const decrementseniorCount = (e: Event) => {
     e.preventDefault();
     if (seniorCount > 0) {
       setSeniorCount(seniorCount - 1);
     }
   };
 
-  const incrementenglishHeritageCount = (e: MouseEvent) => {
+  const incrementenglishHeritageCount = (e: Event) => {
     e.preventDefault();
     setEnglishHeritageCount(englishHeritageCount + 1);
   };
 
-  const decrementenglishHeritageCount = (e: MouseEvent) => {
+  const decrementenglishHeritageCount = (e: Event) => {
     e.preventDefault();
     if (englishHeritageCount > 0) {
       setEnglishHeritageCount(englishHeritageCount - 1);
@@ -83,12 +83,12 @@ const Prices = () => {
     );
   };
 
-  const openPopup = (e: MouseEvent) => {
+  const openPopup = (e: Event) => {
     e.preventDefault();
     setShowPopup(true);
   };
 
-  const closePopup = (e: MouseEvent) => {
+  const closePopup = (e: Event) => {
     e.preventDefault();
     setShowPopup(false);
   };

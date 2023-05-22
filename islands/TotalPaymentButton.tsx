@@ -10,8 +10,8 @@ const TotalPaymentButton: FunctionComponent<Payment> = ({ TotalPrice }) => {
     : "0.00";
 
   return (
-    <div className="mt-4 flex justify-center">
-      <button className="bg-yellow-600 text-black mt-8 ml-10 px-4 py-2 rounded-lg focus:outline-none">
+    <div class="mt-4 flex justify-center">
+      <button class="bg-yellow-600 text-black mt-8 ml-10 px-4 py-2 rounded-lg focus:outline-none">
         Total: £{formattedTotalPrice}
       </button>
     </div>
