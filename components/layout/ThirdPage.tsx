@@ -18,11 +18,12 @@ const ThirdPage = () => {
             alt="rune"
           />
 
-          <img
-            className="hidden md:block w-1/5 md:w-3/5 mx-2"
-            src="/button.svg"
-            alt="button"
-          />
+          <button
+            type="button"
+            className="border border-yellow-600 py-2 text-black bg-yellow-600 px-8 ml-8 rounded-2xl w-full"
+          >
+            <a href="/whats-on" className="">Events</a>
+          </button>
         </div>
       </div>
 

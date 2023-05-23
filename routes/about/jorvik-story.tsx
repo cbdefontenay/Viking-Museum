@@ -12,15 +12,18 @@ const JorvikStory = () => {
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-2">
           <img
-            className="my-0 mx-auto"
+            className="my-0 mx-auto 
+            animate__animated animate__fadeIn animate__delay-2s"
             src="/transition.svg"
             alt="Something"
           />
 
-          <h1 className="text-4xl sm:text-6xl text-white leading-tight mt-4">
+          <h1 className="text-4xl sm:text-6xl text-white leading-tight mt-4 
+          animate__animated animate__fadeIn animate__delay-1s">
             Jorvik Story
           </h1>
-          <h2 className="text-white text-xl sm:text-2xl mt-10">
+          <h2 className="text-white text-xl sm:text-2xl mt-10 
+          animate__animated animate__fadeIn animate__delay-2s">
             Over the past 35 years JORVIK has revolutionised the heritage
             attraction experience, bringing the past to life like never before.
           </h2>

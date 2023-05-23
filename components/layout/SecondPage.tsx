@@ -6,7 +6,7 @@ const SecondPage = () => {
           Welcome to
         </h2>
         <h2 className="text-4xl text-center md:text-6xl mt-2">JORVIK!</h2>
-        <p className="text-center md:text-2xl mt-5 text-lg px-7 pb-2 ">
+        <p className="text-center md:text-2xl mt-5 text-lg px-7 pb-2">
           Discover the Vikings! Pre-booking
           <a
             href="/book-your-visit"
@@ -16,7 +16,7 @@ const SecondPage = () => {
           >
             online
           </a>,
-          <p className="text-center text-lg px-7 pb-2 md:text-2xl ">
+          <p className="text-center text-lg px-7 pb-2 md:text-2xl">
             or by calling <strong>01904 616973</strong>, is advisable.
           </p>
         </p>

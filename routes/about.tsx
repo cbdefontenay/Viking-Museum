@@ -15,14 +15,15 @@ const About = () => {
             alt="Something"
           />
 
-          <h1 className="text-4xl sm:text-6xl text-white leading-tight mt-4">
+          <h1 className="text-4xl sm:text-6xl text-white leading-tight mt-4
+          animate__animated animate__fadeIn animate__delay-1s">
             About
           </h1>
 
-          <h2 className="text-gray-200 text-2xl sm:text-4xl mt-10">
+          <h2 className="text-gray-200 text-2xl sm:text-4xl mt-10 animate__animated animate__fadeIn animate__delay-2s">
             The world famous JORVIK Viking Centre is a ‘must-see’ for visitors
             to the city of York
-            <p>
+            <p class="animate__animated animate__fadeIn animate__delay-3s">
               and is one of the most popular visitor attractions in the UK.
             </p>
           </h2>

@@ -8,15 +8,17 @@ const Transition = () => {
           alt="Something"
         />
 
-        <h1 className="text-4xl sm:text-6xl text-white leading-tight mt-6">
+        <h1 className="text-4xl sm:text-6xl text-white leading-tight mt-6 animate__animated animate__fadeIn animate__delay-1s">
           The Original Viking
         </h1>
 
-        <h1 className="text-4xl sm:text-6xl text-white leading-tight">
+        <h1 className="text-4xl sm:text-6xl text-white leading-tight
+        animate__animated animate__fadeIn animate__delay-1s">
           Encounter
         </h1>
 
-        <h2 className="text-yellow-500 text-2xl sm:text-4xl mt-4">
+        <h2 className="text-yellow-500 text-2xl sm:text-4xl mt-4
+        animate__animated animate__fadeIn animate__delay-1s">
           <a href="/book-your-visit">Book Now</a>
         </h2>
 

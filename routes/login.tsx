@@ -37,7 +37,7 @@ const Login = () => {
       />
 
       <form
-        className="w-full mx-2 bg-black bg-opacity-50 text-white rounded-lg py-16 pl-10 pr-10 sm:w-1/2 mt-4 sm:mt-10"
+        className="w-full mx-2 bg-black bg-opacity-50 text-white rounded-lg py-16 pl-10 pr-10 sm:w-1/2 mt-4 sm:mt-10  animate__animated animate__fadeIn animate__delay-2s"
         method="post"
       >
         <label

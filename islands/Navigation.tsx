@@ -9,10 +9,10 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="absolute top-0 left-0 w-full bg-gradient-to-b from-black to-transparent pt-10">
+    <nav className="absolute top-0 left-0 w-full bg-gradient-to-b from-black to-transparent pt-10 overflow-hidden">
       <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
         <div className="flex justify-between h-16">
-          <div className="flex flex-col px-2 lg:px-0">
+          <div className="flex flex-col px-2 lg:px-0 animate__animated animate__fadeInLeft animate__delay-1s">
             <button
               type="button"
               className="lg:hidden focus:outline-none flex items-center px-3 py-2 rounded text-gray-200"
@@ -40,7 +40,7 @@ const Navigation = () => {
               showMenu ? "block" : "hidden"
             }`}
           >
-            <div className="lg:flex-grow font-bold uppercase">
+            <div className="lg:flex-grow font-bold uppercase animate__animated animate__fadeInRight animate__delay-1s">
               <a
                 href="/about"
                 className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white"

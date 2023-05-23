@@ -34,6 +34,10 @@ export default function Home() {
         <FourthPage />
       </div>
       <Footer />
+
+      <script>
+        AOS.init();
+      </script>
     </>
   );
 }
