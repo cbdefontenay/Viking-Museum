@@ -8,14 +8,15 @@ import * as $1 from "./routes/about.tsx";
 import * as $2 from "./routes/about/jorvik-story.tsx";
 import * as $3 from "./routes/book-your-visit.tsx";
 import * as $4 from "./routes/event-tickets.tsx";
-import * as $5 from "./routes/index.tsx";
-import * as $6 from "./routes/login.tsx";
-import * as $7 from "./routes/newsletter.tsx";
-import * as $8 from "./routes/pastport-tickets.tsx";
-import * as $9 from "./routes/the-vikings.tsx";
-import * as $10 from "./routes/visit.tsx";
-import * as $11 from "./routes/whats-on.tsx";
-import * as $12 from "./routes/whats-on/silverdale-hoard-exhibition.tsx";
+import * as $5 from "./routes/get-involved.tsx";
+import * as $6 from "./routes/index.tsx";
+import * as $7 from "./routes/login.tsx";
+import * as $8 from "./routes/newsletter.tsx";
+import * as $9 from "./routes/pastport-tickets.tsx";
+import * as $10 from "./routes/the-vikings.tsx";
+import * as $11 from "./routes/visit.tsx";
+import * as $12 from "./routes/whats-on.tsx";
+import * as $13 from "./routes/whats-on/silverdale-hoard-exhibition.tsx";
 import * as $$0 from "./islands/ButtonWithMenu.tsx";
 import * as $$1 from "./islands/Navigation.tsx";
 import * as $$2 from "./islands/PaymentForm.tsx";
@@ -31,14 +32,15 @@ const manifest = {
     "./routes/about/jorvik-story.tsx": $2,
     "./routes/book-your-visit.tsx": $3,
     "./routes/event-tickets.tsx": $4,
-    "./routes/index.tsx": $5,
-    "./routes/login.tsx": $6,
-    "./routes/newsletter.tsx": $7,
-    "./routes/pastport-tickets.tsx": $8,
-    "./routes/the-vikings.tsx": $9,
-    "./routes/visit.tsx": $10,
-    "./routes/whats-on.tsx": $11,
-    "./routes/whats-on/silverdale-hoard-exhibition.tsx": $12,
+    "./routes/get-involved.tsx": $5,
+    "./routes/index.tsx": $6,
+    "./routes/login.tsx": $7,
+    "./routes/newsletter.tsx": $8,
+    "./routes/pastport-tickets.tsx": $9,
+    "./routes/the-vikings.tsx": $10,
+    "./routes/visit.tsx": $11,
+    "./routes/whats-on.tsx": $12,
+    "./routes/whats-on/silverdale-hoard-exhibition.tsx": $13,
   },
   islands: {
     "./islands/ButtonWithMenu.tsx": $$0,

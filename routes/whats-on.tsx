@@ -1,4 +1,5 @@
 import ArrowVikingVideo from "../components/ArrowVikingVideo.tsx";
+import Footer from "../components/Footer.tsx";
 
 const WhatsOn = () => {
   return (
@@ -47,6 +48,10 @@ const WhatsOn = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="h-full">
+        <Footer />
       </div>
     </>
   );

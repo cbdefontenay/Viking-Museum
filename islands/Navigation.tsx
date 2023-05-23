@@ -63,12 +63,6 @@ const Navigation = () => {
                 href="/"
                 className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white"
               >
-                Education
-              </a>
-              <a
-                href="/"
-                className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white"
-              >
                 Shop
               </a>
               <a
@@ -78,7 +72,7 @@ const Navigation = () => {
                 What's on
               </a>
               <a
-                href="/"
+                href="/get-involved"
                 className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white"
               >
                 Get Involved
