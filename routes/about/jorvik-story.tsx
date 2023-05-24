@@ -1,5 +1,6 @@
 import ButtonClickHere from "../../components/ButtonClickHere.tsx";
 import Footer from "../../components/Footer.tsx";
+import ButtonWithMenu from "../../islands/ButtonWithMenu.tsx";
 
 const JorvikStory = () => {
   return (
@@ -27,6 +28,8 @@ const JorvikStory = () => {
             Over the past 35 years JORVIK has revolutionised the heritage
             attraction experience, bringing the past to life like never before.
           </h2>
+
+          <ButtonWithMenu />
         </div>
       </div>
 
