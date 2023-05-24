@@ -10,7 +10,7 @@ const Navigation = () => {
 
   return (
     <nav className="absolute top-0 left-0 w-full bg-gradient-to-b from-black to-transparent pt-10 md:overflow-hidden">
-      <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
+      <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 md:mb-8">
         <div className="flex justify-between h-16">
           <div className="flex flex-col px-2 lg:px-0 animate__animated animate__fadeInLeft animate__delay-1s">
             <button
@@ -82,6 +82,13 @@ const Navigation = () => {
                 animate__animated animate__fadeInRight animate__delay-1s "
               >
                 Get Involved
+              </a>
+              <a
+                href="/contact"
+                className="block lg:inline-block px-3 py-2 text-yellow-600 hover:text-white
+                animate__animated animate__fadeInRight animate__delay-1s "
+              >
+                Contact
               </a>
             </div>
           </div>
