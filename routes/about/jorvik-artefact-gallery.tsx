@@ -1,4 +1,6 @@
+import Footer from "../../components/Footer.tsx";
 import ButtonWithMenu from "../../islands/ButtonWithMenu.tsx";
+import Carousel from "../../islands/Carousel.tsx";
 
 const ArtefactGallery = () => {
   return (
@@ -37,17 +39,17 @@ const ArtefactGallery = () => {
           <div class=" px-4 pb-8 text-justify mt-8 md:max-w-3xl">
             <div class="mb-4 md:text-lg md:text-2xl">
               <p class="mb-4">
-                <span class="font-bold text-xl md:text-3xl">T</span>
-                Artefact Gallery Before ‘The Viking Dig’, clues about what it
-                was like to live in JORVIK were few and far between. Most came
-                from objects found by chance when workmen were laying
-                foundations or digging drains. Only a handful of small-scale
-                excavations had encountered Viking-Age remains. The excavation
-                at Coppergate produced 40,000 different archaeological layers or
-                contexts and led to the discovery of over 250,000 pieces of
-                pottery, 5 tonnes of animal bone and 40,000 individually
-                interesting objects. All of this evidence has been identified,
-                preserved and researched by York Archaeological Trust.
+                <span class="font-bold text-xl md:text-3xl">A</span>
+                rtefact Gallery Before ‘The Viking Dig’, clues about what it was
+                like to live in JORVIK were few and far between. Most came from
+                objects found by chance when workmen were laying foundations or
+                digging drains. Only a handful of small-scale excavations had
+                encountered Viking-Age remains. The excavation at Coppergate
+                produced 40,000 different archaeological layers or contexts and
+                led to the discovery of over 250,000 pieces of pottery, 5 tonnes
+                of animal bone and 40,000 individually interesting objects. All
+                of this evidence has been identified, preserved and researched
+                by York Archaeological Trust.
               </p>
               <p class="mb-4">
                 This is a selection of the most typical, the rarest, the most
@@ -56,6 +58,14 @@ const ArtefactGallery = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="bg-gray-200 pt-8 py-20">
+        <Carousel />
+      </div>
+
+      <div className="h-full">
+        <Footer />
       </div>
     </>
   );
