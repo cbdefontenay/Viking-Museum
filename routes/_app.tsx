@@ -2,15 +2,10 @@ import { AppProps } from "$fresh/server.ts";
 import { Head } from "https://deno.land/x/fresh@1.1.5/runtime.ts";
 import Navigation from "../islands/Navigation.tsx";
 import ReactGA from "npm:react-ga";
-import { useEffect } from "preact/hooks";
 
 export default function App({ Component }: AppProps) {
-  const TRACKING_ID = "G-KVKS365EPL";
+  const TRACKING_ID = "UA-256329277-3";
   ReactGA.initialize(TRACKING_ID);
-
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname);
-  }, []);
 
   return (
     <>
