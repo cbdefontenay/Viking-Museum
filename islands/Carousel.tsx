@@ -65,25 +65,25 @@ const Carousel: preact.FunctionComponent = () => {
 
   return (
     <div
-      className="relative"
+      class="relative"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="overflow-hidden w-full h-1/2">
+      <div class="overflow-hidden w-full h-1/2">
         <div
-          className="flex transition-transform duration-300 ease-in-out"
+          class="flex transition-transform duration-300 ease-in-out"
           style={{
-            transform: `translateX(-${currentSlide * 50}%)`,
+            transform: `translateX(-${(currentSlide * 100) / slides.length}%)`,
             width: `${slides.length * 50}%`,
           }}
         >
           {slides.map((slide, index) => (
             <div
               key={index}
-              className="relative w-96 h-80 mx-40 rounded-xl animate__animated animate__fadeInRight animate__delay-1s"
+              class="relative w-96 h-80 mx-28 rounded-xl animate__animated animate__fadeInRight animate__delay-1s"
             >
               <div
-                className="absolute text-gray-200 px-4 text-md inset-0 flex items-center justify-center font-bold opacity-0 transition-opacity duration-300 bg-opacity-50 hover:opacity-100"
+                class="absolute text-gray-200 px-4 text-md inset-0 flex items-center justify-center font-bold opacity-0 transition-opacity duration-300 bg-opacity-50 hover:opacity-100"
                 style={{
                   background: "rgba(0, 0, 0, 0.5)",
                 }}
@@ -91,7 +91,7 @@ const Carousel: preact.FunctionComponent = () => {
                 {descriptiveTexts[index]}
               </div>
               <div
-                className="w-full h-full"
+                class="w-full h-full"
                 style={{
                   backgroundImage: `url(${slide})`,
                   backgroundSize: "cover",
@@ -104,13 +104,13 @@ const Carousel: preact.FunctionComponent = () => {
       </div>
 
       <button
-        className="absolute top-1/2 left-2 transform -translate-y-1/2"
+        class="absolute top-1/2 left-2 transform -translate-y-1/2"
         onClick={prevSlide}
       >
         <IconPlayerTrackPrevFilled class="w-6 h-6" />
       </button>
       <button
-        className="absolute top-1/2 right-2 transform -translate-y-1/2"
+        class="absolute top-1/2 right-2 transform -translate-y-1/2"
         onClick={nextSlide}
       >
         <IconPlayerTrackNextFilled class="w-6 h-6" />

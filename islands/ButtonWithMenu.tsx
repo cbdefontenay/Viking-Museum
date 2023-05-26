@@ -17,28 +17,28 @@ const ButtonWithMenu = () => {
           <a
             href="/about/jorvik-story"
             className="block w-full px-4 py-2 text-sm text-gray-300 hover:bg-gray-300 hover:text-red-700
-            animate__animated animate__fadeInUp animate__delay-1s"
+            animate__animated animate__fadeInUp"
           >
             JORVIK Story
           </a>
           <a
             href="/about/jorvik-artefact-gallery"
             className="block w-full px-4 py-2 text-sm text-gray-300 hover:bg-gray-300 hover:text-red-700
-            animate__animated animate__fadeInUp animate__delay-1s"
+            animate__animated animate__fadeInUp"
           >
             JORVIK Artefact Gallery
           </a>
           <a
-            href="#"
+            href="/about/yat"
             className="block w-full px-4 py-2 text-sm text-gray-300 hover:bg-gray-300 hover:text-red-700
-            animate__animated animate__fadeInUp animate__delay-1s"
+            animate__animated animate__fadeInUp"
           >
             York Archeological Trust
           </a>
           <a
             href="#"
             className="block w-full px-4 py-2 text-sm text-gray-300 hover:bg-gray-300 hover:text-red-700
-            animate__animated animate__fadeInUp animate__delay-1s"
+            animate__animated animate__fadeInUp"
           >
             Support Us
           </a>

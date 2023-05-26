@@ -3,22 +3,26 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import config from "./deno.json" assert { type: "json" };
-import * as $0 from "./routes/_app.tsx";
-import * as $1 from "./routes/about.tsx";
-import * as $2 from "./routes/about/jorvik-artefact-gallery.tsx";
-import * as $3 from "./routes/about/jorvik-story.tsx";
-import * as $4 from "./routes/book-your-visit.tsx";
-import * as $5 from "./routes/contact.tsx";
-import * as $6 from "./routes/event-tickets.tsx";
-import * as $7 from "./routes/get-involved.tsx";
-import * as $8 from "./routes/index.tsx";
-import * as $9 from "./routes/login.tsx";
-import * as $10 from "./routes/newsletter.tsx";
-import * as $11 from "./routes/pastport-tickets.tsx";
-import * as $12 from "./routes/the-vikings.tsx";
-import * as $13 from "./routes/visit.tsx";
-import * as $14 from "./routes/whats-on.tsx";
-import * as $15 from "./routes/whats-on/silverdale-hoard-exhibition.tsx";
+import * as $0 from "./routes/_404.tsx";
+import * as $1 from "./routes/_500.tsx";
+import * as $2 from "./routes/_app.tsx";
+import * as $3 from "./routes/about.tsx";
+import * as $4 from "./routes/about/fundraising.tsx";
+import * as $5 from "./routes/about/jorvik-artefact-gallery.tsx";
+import * as $6 from "./routes/about/jorvik-story.tsx";
+import * as $7 from "./routes/about/yat.tsx";
+import * as $8 from "./routes/book-your-visit.tsx";
+import * as $9 from "./routes/contact.tsx";
+import * as $10 from "./routes/event-tickets.tsx";
+import * as $11 from "./routes/get-involved.tsx";
+import * as $12 from "./routes/index.tsx";
+import * as $13 from "./routes/login.tsx";
+import * as $14 from "./routes/newsletter.tsx";
+import * as $15 from "./routes/pastport-tickets.tsx";
+import * as $16 from "./routes/the-vikings.tsx";
+import * as $17 from "./routes/visit.tsx";
+import * as $18 from "./routes/whats-on.tsx";
+import * as $19 from "./routes/whats-on/silverdale-hoard-exhibition.tsx";
 import * as $$0 from "./islands/ButtonWithMenu.tsx";
 import * as $$1 from "./islands/Carousel.tsx";
 import * as $$2 from "./islands/Navigation.tsx";
@@ -30,22 +34,26 @@ import * as $$7 from "./islands/TotalPaymentButton.tsx";
 
 const manifest = {
   routes: {
-    "./routes/_app.tsx": $0,
-    "./routes/about.tsx": $1,
-    "./routes/about/jorvik-artefact-gallery.tsx": $2,
-    "./routes/about/jorvik-story.tsx": $3,
-    "./routes/book-your-visit.tsx": $4,
-    "./routes/contact.tsx": $5,
-    "./routes/event-tickets.tsx": $6,
-    "./routes/get-involved.tsx": $7,
-    "./routes/index.tsx": $8,
-    "./routes/login.tsx": $9,
-    "./routes/newsletter.tsx": $10,
-    "./routes/pastport-tickets.tsx": $11,
-    "./routes/the-vikings.tsx": $12,
-    "./routes/visit.tsx": $13,
-    "./routes/whats-on.tsx": $14,
-    "./routes/whats-on/silverdale-hoard-exhibition.tsx": $15,
+    "./routes/_404.tsx": $0,
+    "./routes/_500.tsx": $1,
+    "./routes/_app.tsx": $2,
+    "./routes/about.tsx": $3,
+    "./routes/about/fundraising.tsx": $4,
+    "./routes/about/jorvik-artefact-gallery.tsx": $5,
+    "./routes/about/jorvik-story.tsx": $6,
+    "./routes/about/yat.tsx": $7,
+    "./routes/book-your-visit.tsx": $8,
+    "./routes/contact.tsx": $9,
+    "./routes/event-tickets.tsx": $10,
+    "./routes/get-involved.tsx": $11,
+    "./routes/index.tsx": $12,
+    "./routes/login.tsx": $13,
+    "./routes/newsletter.tsx": $14,
+    "./routes/pastport-tickets.tsx": $15,
+    "./routes/the-vikings.tsx": $16,
+    "./routes/visit.tsx": $17,
+    "./routes/whats-on.tsx": $18,
+    "./routes/whats-on/silverdale-hoard-exhibition.tsx": $19,
   },
   islands: {
     "./islands/ButtonWithMenu.tsx": $$0,
