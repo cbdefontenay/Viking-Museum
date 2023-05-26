@@ -8,17 +8,15 @@ export default function App({ Component }: AppProps) {
       <div className="font-philosopher min-h-screen">
         <Head>
           <title>Jorvik Viking Museum</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+
           <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
           />
           <link rel="stylesheet" href="/styles/global.css" />
           <link rel="icon" href="/favicon.png" />
-          <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=UA-256329277-4"
-          >
-          </script>
+          
         </Head>
         <Navigation />
         <Component />
