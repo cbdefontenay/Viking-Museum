@@ -5,7 +5,7 @@ import ReactGA from "npm:react-ga";
 import { useEffect } from "preact/hooks";
 
 export default function App({ Component }: AppProps) {
-  const TRACKING_ID = "UA-256329277-2";
+  const TRACKING_ID = "G-KVKS365EPL";
   ReactGA.initialize(TRACKING_ID);
 
   useEffect(() => {
