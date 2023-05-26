@@ -25,13 +25,12 @@ import * as $18 from "./routes/whats-on.tsx";
 import * as $19 from "./routes/whats-on/silverdale-hoard-exhibition.tsx";
 import * as $$0 from "./islands/ButtonWithMenu.tsx";
 import * as $$1 from "./islands/Carousel.tsx";
-import * as $$2 from "./islands/Google.tsx";
-import * as $$3 from "./islands/Navigation.tsx";
-import * as $$4 from "./islands/PaymentForm.tsx";
-import * as $$5 from "./islands/PaymentPastport.tsx";
-import * as $$6 from "./islands/PopUp.tsx";
-import * as $$7 from "./islands/Prices.tsx";
-import * as $$8 from "./islands/TotalPaymentButton.tsx";
+import * as $$2 from "./islands/Navigation.tsx";
+import * as $$3 from "./islands/PaymentForm.tsx";
+import * as $$4 from "./islands/PaymentPastport.tsx";
+import * as $$5 from "./islands/PopUp.tsx";
+import * as $$6 from "./islands/Prices.tsx";
+import * as $$7 from "./islands/TotalPaymentButton.tsx";
 
 const manifest = {
   routes: {
@@ -59,13 +58,12 @@ const manifest = {
   islands: {
     "./islands/ButtonWithMenu.tsx": $$0,
     "./islands/Carousel.tsx": $$1,
-    "./islands/Google.tsx": $$2,
-    "./islands/Navigation.tsx": $$3,
-    "./islands/PaymentForm.tsx": $$4,
-    "./islands/PaymentPastport.tsx": $$5,
-    "./islands/PopUp.tsx": $$6,
-    "./islands/Prices.tsx": $$7,
-    "./islands/TotalPaymentButton.tsx": $$8,
+    "./islands/Navigation.tsx": $$2,
+    "./islands/PaymentForm.tsx": $$3,
+    "./islands/PaymentPastport.tsx": $$4,
+    "./islands/PopUp.tsx": $$5,
+    "./islands/Prices.tsx": $$6,
+    "./islands/TotalPaymentButton.tsx": $$7,
   },
   baseUrl: import.meta.url,
   config,

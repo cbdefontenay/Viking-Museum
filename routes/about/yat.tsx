@@ -111,7 +111,7 @@ const Yat = () => {
         </div>
       </div>
 
-      <div className="relative text-white flex flex-col md:flex-row">
+      <div className="relative text-white flex flex-col md:flex-row overflow-x-hidden">
         <div className="w-full md:w-1/2 relative z-10">
           <img
             src="/viking-warrior.webp"
@@ -119,7 +119,7 @@ const Yat = () => {
             className="w-full h-full"
           />
           <div className="absolute top-0 left-0 h-full flex flex-col items-center justify-center px-6">
-            <p className="text-center font-bold mb-2 mx-32 xl:mx-72 2xl:mx-96 lg:text-5xl">
+            <p className="text-center font-bold mb-2 mx-32 xl:ml-20 2xl:ml-52 lg:text-5xl">
               JORVIK Story
             </p>
 
@@ -139,8 +139,8 @@ const Yat = () => {
             alt="viking family"
             className="w-full h-full"
           />
-          <div className="absolute top-0 left-0 h-full ml-32 font-bold tracking-wider flex flex-col items-center justify-center px-6 sm:ml-60 md:ml-32 lg:ml-72">
-            <p className="text-center md:text-2xl lg:text-5xl xl:mx-56 2xl:mx-64">
+          <div className="absolute top-0 left-0 h-full ml-32 font-bold tracking-wider flex flex-col items-center justify-center px-6 sm:ml-60 md:ml-32 lg:ml-56">
+            <p className="text-center md:text-2xl lg:text-5xl xl:mx-20">
               Support Us
             </p>
 

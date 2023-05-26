@@ -36,7 +36,7 @@ const ButtonWithMenu = () => {
             York Archeological Trust
           </a>
           <a
-            href="#"
+            href="/about/fundraising"
             className="block w-full px-4 py-2 text-sm text-gray-300 hover:bg-gray-300 hover:text-red-700
             animate__animated animate__fadeInUp"
           >
