@@ -6,8 +6,10 @@ import FourthPage from "../components/layout/FourthPage.tsx";
 import SecondPage from "../components/layout/SecondPage.tsx";
 import ThirdPage from "../components/layout/ThirdPage.tsx";
 import Transition from "../components/layout/Transition.tsx";
+import Google from "../islands/Google.tsx";
 
 export default function Home() {
+  <Google />;
   return (
     <>
       <Head>
