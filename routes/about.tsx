@@ -2,10 +2,8 @@ import AboutImage from "../components/About/AboutImage.tsx";
 import Footer from "../components/Footer.tsx";
 import VideoAbout from "../components/VideoAbout.tsx";
 import ButtonWithMenu from "../islands/ButtonWithMenu.tsx";
-import Google from "../islands/Google.tsx";
 
 const About = () => {
-  <Google />;
   return (
     <>
       <div className="h-screen">

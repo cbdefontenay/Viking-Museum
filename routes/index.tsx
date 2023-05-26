@@ -6,10 +6,13 @@ import FourthPage from "../components/layout/FourthPage.tsx";
 import SecondPage from "../components/layout/SecondPage.tsx";
 import ThirdPage from "../components/layout/ThirdPage.tsx";
 import Transition from "../components/layout/Transition.tsx";
-import Google from "../islands/Google.tsx";
+import { useEffect } from "preact/hooks";
+import ReactGA from "npm:react-ga";
 
 export default function Home() {
-  <Google />;
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
   return (
     <>
       <Head>
