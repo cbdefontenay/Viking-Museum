@@ -14,6 +14,11 @@ export default function App({ Component }: AppProps) {
           />
           <link rel="stylesheet" href="/styles/global.css" />
           <link rel="icon" href="/favicon.png" />
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-256329277-4"
+          >
+          </script>
         </Head>
         <Navigation />
         <Component />
