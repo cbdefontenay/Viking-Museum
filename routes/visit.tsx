@@ -38,7 +38,7 @@ const Visit = () => {
                 <span class="font-bold text-xl md:text-3xl">T</span>
                 o get the most out of your visit, you’ll find all of the
                 information you need here. You can pre-book at any time by
-                clicking{" "}
+                clicking
                 <a
                   href="/book-your-visit"
                   class="text-yellow-600 hover:text-gray-600 hover:underline"

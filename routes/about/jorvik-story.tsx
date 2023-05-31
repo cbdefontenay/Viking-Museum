@@ -52,7 +52,10 @@ const JorvikStory = () => {
             JORVIK Viking Centre has been completely re-imagined, with a new
             experiences and stories to be told.
           </p>
-          <ButtonClickHere href="/" text="Click Here" />
+          <ButtonClickHere
+            href="/about/jorvik-story/return-of-the-vikings"
+            text="Click Here"
+          />
         </div>
 
         <div className="">
